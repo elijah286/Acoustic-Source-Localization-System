@@ -14,7 +14,7 @@ on:
   # that is not a monitored dependency. Nothing here runs automatically except the
   # monthly base-image rebuild until a monitored file is saved in config.
   push:
-    branches: [master]
+    branches: [main]
     paths:
       # Project dependency declarations that can be baked into the worker. The
       # tooling's own files under .github/ are excluded so installing or updating

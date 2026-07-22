@@ -11,7 +11,7 @@ on:
   # *.vipc then rebuilds and re-pushes the worker -- identical to the Windows worker.
   # The gate enforces this opt-in; the monthly cron rebuilds for base-image security.
   push:
-    branches: [master]
+    branches: [main]
     paths:
       # Only a project dependency change (outside the tooling dir) is considered; the
       # gate then rebuilds solely when a changed *.vipc is monitored. Tooling / base
