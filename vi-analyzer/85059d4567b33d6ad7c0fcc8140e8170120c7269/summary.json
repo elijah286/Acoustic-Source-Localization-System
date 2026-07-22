@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "sha": "85059d4567b33d6ad7c0fcc8140e8170120c7269",
+    "short": "85059d4",
+    "platform": "windows",
+    "repo": "elijah286/Acoustic-Source-Localization-System",
+    "pages_url": "https://elijah286.github.io/Acoustic-Source-Localization-System",
+    "pages_base": "../..",
+    "commit": {
+      "message": "initial commit",
+      "author": "Jakub Serwatka",
+      "date": "2021-01-05T14:35:56+01:00"
+    },
+    "generated_utc": "2026-07-22 14:41 UTC",
+    "analysis_date": "Wednesday, July 22, 2026 2:41:27 PM",
+    "duration": "00:01:31.16"
+  },
+  "summary": {
+    "vis_analyzed": 28,
+    "tests_run": 2910,
+    "passed": 2693,
+    "failed": 217,
+    "skipped": 0,
+    "findings": 149,
+    "vis_with_findings": 10
+  },
+  "errors": {
+    "vi_not_loadable": 0,
+    "test_not_loadable": 0,
+    "test_not_runnable": 0,
+    "test_error_out": 2
+  },
+  "rule_counts": [
+    {
+      "test": "Spell Check",
+      "severity": "documentation",
+      "count": 29,
+      "vi_count": 9
+    },
+    {
+      "test": "Panel Size and Position",
+      "severity": "style",
+      "count": 18,
+      "vi_count": 10
+    },
+    {
+      "test": "Wire Bends",
+      "severity": "style",
+      "count": 11,
+      "vi_count": 4
+    },
+    {
+      "test": "Separate Compiled Code Setting",
+      "severity": "style",
+      "count": 10,
+      "vi_count": 10
+    },
+    {
+      "test": "Unwired I32 Error",
+      "severity": "style",
+      "count": 8,
+      "vi_count": 2
+    },
+    {
+      "test": "Auto Error Handling Enabled",
+      "severity": "correctness",
+      "count": 7,
+      "vi_count": 7
+    },
+    {
+      "test": "Enabled Debugging",
+      "severity": "performance",
+      "count": 7,
+      "vi_count": 7
+    },
+    {
+      "test": "Code Simplification",
+      "severity": "performance",
+      "count": 6,
+      "vi_count": 2
+    },
+    {
+      "test": "Diagram Size",
+      "severity": "style",
+      "count": 6,
+      "vi_count": 6
+    },
+    {
+      "test": "Wires Under Objects",
+      "severity": "style",
+      "count": 6,
+      "vi_count": 2
+    },
+    {
+      "test": "Case Structure Default Frame",
+      "severity": "style",
+      "count": 4,
+      "vi_count": 1
+    },
+    {
+      "test": "VI Documentation",
+      "severity": "documentation",
+      "count": 4,
+      "vi_count": 4
+    },
+    {
+      "test": "Broken VI",
+      "severity": "correctness",
+      "count": 3,
+      "vi_count": 3
+    },
+    {
+      "test": "Default Icon",
+      "severity": "style",
+      "count": 3,
+      "vi_count": 3
+    },
+    {
+      "test": "Font Usage",
+      "severity": "style",
+      "count": 3,
+      "vi_count": 1
+    },
+    {
+      "test": "Modularity Index",
+      "severity": "style",
+      "count": 3,
+      "vi_count": 3
+    },
+    {
+      "test": "Wired Terminals in Subdiagrams",
+      "severity": "correctness",
+      "count": 3,
+      "vi_count": 1
+    },
+    {
+      "test": "Backwards Wires",
+      "severity": "style",
+      "count": 2,
+      "vi_count": 1
+    },
+    {
+      "test": "Comment Usage",
+      "severity": "documentation",
+      "count": 2,
+      "vi_count": 2
+    },
+    {
+      "test": "Control Alignment",
+      "severity": "style",
+      "count": 2,
+      "vi_count": 2
+    },
+    {
+      "test": "Node Count",
+      "severity": "style",
+      "count": 2,
+      "vi_count": 2
+    },
+    {
+      "test": "Parallelizable Loops",
+      "severity": "performance",
+      "count": 2,
+      "vi_count": 2
+    },
+    {
+      "test": "Approved Bookmark Tags",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Arrays and Strings in Loops",
+      "severity": "performance",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Connector Pane Pattern",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Control VI Type",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Overlapping Controls",
+      "severity": "correctness",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Platform Portability",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Wait in While Loop",
+      "severity": "correctness",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Wire Sources",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    }
+  ]
+}
