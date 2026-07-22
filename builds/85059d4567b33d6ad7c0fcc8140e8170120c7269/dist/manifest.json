@@ -1,0 +1,23 @@
+{
+    "repo":  "elijah286/Acoustic-Source-Localization-System",
+    "sha":  "85059d4567b33d6ad7c0fcc8140e8170120c7269",
+    "ref":  "refs/heads/master",
+    "platform":  "windows",
+    "arch":  "AMD64",
+    "labview_version":  "LabVIEW 2026",
+    "built_at":  "2026-07-22T14:40:16Z",
+    "specs":  [
+                  {
+                      "project":  "Microphone_Array.lvproj",
+                      "name":  "fpga",
+                      "type":  "{F4C5E96F-7410-48A5-BB87-3559BC9B167F}",
+                      "target":  "FPGA Target",
+                      "status":  "failed",
+                      "outputs":  [
+
+                                  ],
+                      "message":  "ExecuteBuildSpec exited 2",
+                      "duration":  16.8
+                  }
+              ]
+}

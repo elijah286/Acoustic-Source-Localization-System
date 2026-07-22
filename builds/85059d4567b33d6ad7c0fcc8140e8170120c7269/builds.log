@@ -1,0 +1,41 @@
+=== ExecuteBuildSpec 'fpga' [{F4C5E96F-7410-48A5-BB87-3559BC9B167F}] target 'FPGA Target' in Microphone_Array.lvproj ===
+LabVIEWCLI started logging in file:  C:\Users\ContainerAdministrator\AppData\Local\Temp\lvtemporary_910565.log
+Using LabVIEW: "C:\Program Files\National Instruments\LabVIEW 2026\LabVIEW.exe"
+LabVIEW launched successfully.
+Connection established with LabVIEW at port number 3363.
+
+LabVIEWCLI.exe : Operation output: 
+At C:\workspace\.github\labview\build-binaries.ps1:252 char:12
++     $out = & $CliExe @cliArgs 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Operation output: :String) [], Re 
+   moteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Error Code : 1
+Error Message : The target "FPGA Target" was not found.
+
+
+
+
+
+<Call Chain>Error 1 occurred at GetTargetBuildSpecs (project reference).vi -> 
+GetTargetBuildSpecs.vi -> NI_App_Builder_API.lvlib:Build (path).vi -> 
+ExecuteBuildSpec.lvclass:RunOperation.vi:5910001 -> 
+CoreOperation.lvclass:CallRunOperation.vi:4230002 -> 
+ExecuteRunOperation.vi:5250001 -> ExecuteOperation.vi:6900002 -> 
+ExecuteOperation.vi.ProxyCaller
+
+
+
+Possible reason(s):
+
+
+LabVIEW: (Hex 0x1) An input parameter is invalid. For example if the input is 
+a path, the path might contain a character not allowed by the OS such as ? or 
+@.
+An error occurred while running the ExecuteBuildSpec operation.
+
+ExecuteBuildSpec operation failed.
+
+
