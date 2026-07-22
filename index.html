@@ -233,7 +233,7 @@
     // the install/Configure iframe and its in-flight work. When a refresh comes due
     // with a dialog open, keep re-checking and reload only once it is closed.
     (function () {
-      var REFRESH_MS = 60 * 1000;
+      var REFRESH_MS = 900 * 1000;
       if (!(REFRESH_MS > 0)) return;
       function tick() {
         if (lvciModalOpen()) { setTimeout(tick, 5000); return; }
@@ -1781,7 +1781,7 @@
   </script>
   <main class="lvci-main">
   <h1>CI Dashboard — Acoustic-Source-Localization-System</h1>
-  <div class="sub">Last updated: 2026-07-22 20:22 UTC &nbsp;|&nbsp; Live — refreshing every 60 s while CI runs</div>
+  <div class="sub">Last updated: 2026-07-22 21:22 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
   <div class="nav">
     <a href="https://github.com/elijah286/Acoustic-Source-Localization-System">GitHub</a>
     <a href="https://github.com/elijah286/Acoustic-Source-Localization-System/actions">Actions</a>
@@ -1956,7 +1956,7 @@
       <td style="text-align:center" class="cidash-cap-cell" data-cap="snapshots" data-sha="85059d4567b33d6ad7c0fcc8140e8170120c7269" data-parent="" data-short="85059d4" data-ts="" data-done="true"><span class="cidash-chip cc-info" title="Snapshots rendered for all 10 VIs in this revision"><a href="https://elijah286.github.io/Acoustic-Source-Localization-System/vi-snapshots/index.html?sha=85059d4567b33d6ad7c0fcc8140e8170120c7269" style="color:inherit">10</a></span></td>
       <td style="text-align:center" class="cidash-cap-cell" data-cap="unit-tests" data-sha="85059d4567b33d6ad7c0fcc8140e8170120c7269" data-parent="" data-short="85059d4" data-ts="2026-07-22T14:39:51Z"><span class="cidash-chip cc-pass" title="No unit tests found; 0% failed."><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L1.22 9.28a.75.75 0 1 1 1.06-1.06L6 11.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg><a href="https://elijah286.github.io/Acoustic-Source-Localization-System/report/index.html?type=unit-tests-report&sha=85059d4567b33d6ad7c0fcc8140e8170120c7269&short=85059d4&src=..%2Funit-tests%2F85059d4567b33d6ad7c0fcc8140e8170120c7269%2Findex.html&title=Unit%20Tests%20%C2%B7%2085059d4" style="color:inherit">0% failed</a></span></td>
       <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
-      <td style="text-align:center" class="cidash-active-cell" data-cap="builds" data-sha="85059d4567b33d6ad7c0fcc8140e8170120c7269" data-parent="" data-short="85059d4" data-active="true"><span class="run-badge" title="Running — click to view progress"><a href="https://github.com/elijah286/Acoustic-Source-Localization-System/actions/runs/29928476028" style="color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:5px"><span class="run-spin"></span>build</a></span></td>
+      <td style="text-align:center" class="cidash-cap-cell" data-cap="builds" data-sha="85059d4567b33d6ad7c0fcc8140e8170120c7269" data-parent="" data-short="85059d4" data-ts="2026-07-22T14:40:32Z"><span class="cidash-chip cc-split" title="0 built, 1 failed of 1 build specification(s)"><a href="https://elijah286.github.io/Acoustic-Source-Localization-System/report/index.html?type=builds-report&sha=85059d4567b33d6ad7c0fcc8140e8170120c7269&short=85059d4&src=..%2Fbuilds%2F85059d4567b33d6ad7c0fcc8140e8170120c7269%2Findex.html&title=Builds%20%C2%B7%2085059d4" style="color:inherit"><span class="cidash-vseg cc-pass" data-tip="Succeeded">0</span><span class="cidash-vseg-sep">/</span><span class="cidash-vseg cc-fail" data-tip="Failed">1</span></a></span></td>
     </tr></tbody>
   </table>
   </div>
