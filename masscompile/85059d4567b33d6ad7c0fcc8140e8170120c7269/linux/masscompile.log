@@ -1,0 +1,54 @@
+LabVIEWCLI started logging in file:  /tmp/lvtemporary_930989.log
+Using LabVIEW: "/usr/local/natinst/LabVIEW-2026-64/labviewprofull"
+LabVIEW launched successfully.
+Connection established with LabVIEW at port number 3363.
+
+Operation output: 
+#### Starting Mass Compile: Wed, Jul 22, 2026 02:26:16 PM
+  Directory: "/workspace"
+  ### Bad VI:    "Host_Main.vi"	Path="/workspace/VIs/Host_Main.vi" 
+/workspace/.github/labview/PrintToSingleFileHtml/PrintToSingleFileHtml.lvclass (PrintToSingleFileHtml.lvclass)
+    - The class expected to be at "/workspace/.github/labview/CoreOperation/CoreOperation.lvclass" was loaded from "/usr/local/natinst/share/nilvcli/Operations/CoreOperation/CoreOperation.lvclass".
+Search failed to find "LV AI Core.lvlib:XML generator.vi" previously from "/workspace/.github/labview/toimages/_ni/labview/lvctl/vis/LV AI Core/XML generator.vi"  +=+   Caller: "VI to XML.vi"
+  ### Bad VI:    "VI to XML.vi"	Path="/workspace/.github/labview/toimages/_ni/labview/lvctl/vis/VI to XML.vi" 
+Search failed to find "LV AI Core.lvlib:VI generator.vi" previously from "/workspace/.github/labview/toimages/_ni/labview/lvctl/vis/LV AI Core/VI generator.vi"  +=+   Caller: "XML to VI.vi"
+  ### Bad VI:    "XML to VI.vi"	Path="/workspace/.github/labview/toimages/_ni/labview/lvctl/vis/XML to VI.vi" 
+Search failed to find "EIOPropertyNode.xnode" previously from "/<vilib>/eio/EIOPropertyNode/EIOPropertyNode.xnode"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "niFpgaContainer.xnode" previously from "/<vilib>/rvi/DataTransferAndStorage/Container/XNode/niFpgaContainer.xnode"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "niFpgaButterworthFilter.xnode" previously from "/<vilib>/rvi/Analysis/measure/butterworth/XNode/niFpgaButterworthFilter.xnode"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "EIONode.xnode" previously from "/<vilib>/eio/EIONode/EIONode.xnode"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "nirviEmuTemplatePropertySet_noerrors.vi" previously from "/<vilib>/rvi/eio/common/nirviEmuTemplatePropertySet_noerrors.vi"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "nirviEmuTemplatePropertySet_errors.vi" previously from "/<vilib>/rvi/eio/common/nirviEmuTemplatePropertySet_errors.vi"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "nirviEmuTemplatePropertyGet_noerrors.vi" previously from "/<vilib>/rvi/eio/common/nirviEmuTemplatePropertyGet_noerrors.vi"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "nirviEmuTemplatePropertyGet_errors.vi" previously from "/<vilib>/rvi/eio/common/nirviEmuTemplatePropertyGet_errors.vi"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "nicrio_cRIO-BlueMoonOnboardAi_TerminalMod.ctl" previously from "/<vilib>/LabVIEW Targets/FPGA/RIO/BlueMoonOnboardIO/nicrio_cRIO-BlueMoonOnboardAi_TerminalMod.ctl"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "nicrio_cRIO-BlueMoonOnboardAi_VoltageRange.ctl" previously from "/<vilib>/LabVIEW Targets/FPGA/RIO/BlueMoonOnboardIO/nicrio_cRIO-BlueMoonOnboardAi_VoltageRange.ctl"  +=+   Caller: "FPGA_Main.vi"
+Search failed to find "XDataNode.xnode" previously from "/<vilib>/Platform/TimedLoop/XDataNode/XDataNode.xnode"  +=+   Caller: "FPGA_Main.vi:Instance:8"
+Search failed to find "niFPGA I32xI32 MAC - FXP.vi" previously from "/<vilib>/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"  +=+   Caller: "FPGA_Main.vi:Instance:8"
+Search failed to find "niFPGA BW CU Order 2 (32-bit).vi" previously from "/<vilib>/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2 (32-bit).vi"  +=+   Caller: "FPGA_Main.vi:Instance:8"
+Search failed to find "XDNodeRunTimeDep.lvlib:timing_clust.ctl" previously from "/<vilib>/Platform/TimedLoop/XDataNode/timing_clust.ctl"  +=+   Caller: "FPGA_Main.vi:Instance:8"
+Search failed to find "nirviEmuTemplateMethod_errors.vi" previously from "/<vilib>/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"  +=+   Caller: "FPGA_Main.vi"
+  ### Bad VI:    "FPGA_Main.vi"	Path="/workspace/VIs/FPGA_Main.vi" 
+/workspace/VIs/FPGA_Main.vi (FPGA_Main.vi)
+    NI LabVIEW FPGA Module support for LabVIEW 2026 is missing and is referenced by the following VIs:
+Search failed to find "NiFpgaLv.so" previously from "/workspace/VIs/RT_Main.vi/NiFpgaLv.so"  +=+   Caller: "RT_Main.vi"
+Search failed to find "nirviCloseFPGA.xnode" previously from "/<vilib>/rvi/interface/nirviCloseFPGA/nirviCloseFPGA.xnode"  +=+   Caller: "RT_Main.vi"
+Search failed to find "nirviReadWriteControl.xnode" previously from "/<vilib>/rvi/interface/nirviReadWriteControl/nirviReadWriteControl.xnode"  +=+   Caller: "RT_Main.vi"
+Search failed to find "nirviMethod.xnode" previously from "/<vilib>/rvi/interface/nirviMethod/nirviMethod.xnode"  +=+   Caller: "RT_Main.vi"
+Search failed to find "nirviOpenFPGA.xnode" previously from "/<vilib>/rvi/interface/nirviOpenFPGA/nirviOpenFPGA.xnode"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niFpgaDynamicAddResources.vi" previously from "/<vilib>/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpga_Open_sbRIO-9636.vi" previously from "/<vilib>/FPGAPlugInAG/sbRIO-9636/niLvFpga_Open_sbRIO-9636.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpga_Close_Dynamic.vi" previously from "/<vilib>/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpga_Reset_Dynamic.vi" previously from "/<vilib>/FPGAPlugInAG/Dynamic/niLvFpga_Reset_Dynamic.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpga_ReadFifo_Dynamic.vi" previously from "/<vilib>/FPGAPlugInAG/Dynamic/niLvFpga_ReadFifo_Dynamic.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpga_Run_Dynamic.vi" previously from "/<vilib>/FPGAPlugInAG/Dynamic/niLvFpga_Run_Dynamic.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpga_StartFifo_Dynamic.vi" previously from "/<vilib>/FPGAPlugInAG/Dynamic/niLvFpga_StartFifo_Dynamic.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpgaMergeErrorWithErrorCode.vi" previously from "/<vilib>/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpga_ConfigureFifo_Dynamic.vi" previously from "/<vilib>/FPGAPlugInAG/Dynamic/niLvFpga_ConfigureFifo_Dynamic.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niLvFpgaAdjustHostInterfaceError.vi" previously from "/<vilib>/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"  +=+   Caller: "RT_Main.vi"
+Search failed to find "niFpgaSimulationCallBeginRW.vi" previously from "/<vilib>/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"  +=+   Caller: "RT_Main.vi"
+  ### Bad VI:    "RT_Main.vi"	Path="/workspace/VIs/RT_Main.vi" 
+#### Finished Mass Compile: Wed, Jul 22, 2026 02:26:22 PM
+
+MassCompile operation failed.
+
