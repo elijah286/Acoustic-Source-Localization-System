@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "platform": "linux",
+  "version": "linux-0e7761d9ed5b",
+  "labview_version": "2026",
+  "base_image": "ghcr.io/elijah286/labview-ci-with-containers-labview:linux-2026",
+  "base_digest": "sha256:5e7ac3e27ca98a3d9e94fdbfa3e451e1a914d0e7bffd602ef54cb3a065c5bc44",
+  "seed_image": "",
+  "seed_digest": "",
+  "worker_layer": "",
+  "copied_from_base": false,
+  "image_ref": "ghcr.io/elijah286/acoustic-source-localization-system-labview:linux-0e7761d9ed5b",
+  "build_date": "2026-07-22T14:22:23Z",
+  "git_sha": "b2571309e5160afee8f0b244fcb80e0284f0c89b",
+  "run_url": "https://github.com/elijah286/Acoustic-Source-Localization-System/actions/runs/29928246822",
+  "vipc": [],
+  "vipm_raw": "",
+  "vipm_packages": [],
+  "nipkg_raw": "",
+  "nipkg_packages": []
+}
