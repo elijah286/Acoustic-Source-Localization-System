@@ -1,0 +1,18 @@
+[
+  {
+    "sha": "b2571309e5160afee8f0b244fcb80e0284f0c89b",
+    "short": "b257130",
+    "message": "Add LabVIEW CI pipeline",
+    "author": "Elijah Kerry",
+    "date": "2026-07-22T09:22:00-05:00",
+    "vi_count": 10
+  },
+  {
+    "sha": "85059d4567b33d6ad7c0fcc8140e8170120c7269",
+    "short": "85059d4",
+    "message": "initial commit",
+    "author": "Jakub Serwatka",
+    "date": "2021-01-05T14:35:56+01:00",
+    "vi_count": 10
+  }
+]
