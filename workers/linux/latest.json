@@ -1,7 +1,7 @@
 {
-  "version": "linux-0e7761d9ed5b",
+  "version": "linux-faa4596c3848",
   "platform": "linux",
-  "manifest_url": "https://elijah286.github.io/Acoustic-Source-Localization-System/workers/linux/linux-0e7761d9ed5b/manifest.html",
-  "build_date": "2026-07-22T14:22:23Z",
-  "git_sha": "b2571309e5160afee8f0b244fcb80e0284f0c89b"
+  "manifest_url": "https://elijah286.github.io/Acoustic-Source-Localization-System/workers/linux/linux-faa4596c3848/manifest.html",
+  "build_date": "2026-08-01T05:10:23Z",
+  "git_sha": "ff87190547181304a915de9d9eff8348d385683c"
 }
